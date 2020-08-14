@@ -1,0 +1,36 @@
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: #0e4749;
+    color: #FF0055;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mainheader {
+    font-size: 3em;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+.adoptbutton {
+    font-size: 1em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    border-radius: 20px;
+    padding-top: 1em;
+    padding-left: 2em;  
+    padding-bottom: 1em;
+    padding-right: 2em;
+    background: #FF0055;
+    color: #390040;
+    box-shadow: 5px 5px lightgray;
+    border: #390040 0.5px solid;
+
+    transition: color 0.5s, background 0.5s;
+}
+.adoptbutton:hover {
+    color: #FF0055;
+    background:  #390040;
+}
